@@ -1,0 +1,123 @@
+footer{
+    clear:both;
+    background-color:darkslategray;
+    color:white;
+    text-align:center;
+}
+footer p{
+    display:inline-block;
+}
+footer a{
+    display:inline-block;
+    color:white;
+}
+
+header{
+}
+header h1{
+    display:inline-block;
+    font-size:48pt;
+    color:white;
+    text-shadow: 2px 4px 0 navy;
+    margin-left:10px;
+}
+
+body{
+    background-image: url("./assets/background.jpeg");   
+    background-attachment: fixed; 
+    background-size:     100% auto;  
+    background-repeat:   no-repeat;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+}
+
+.loginbox{
+    display:inline-block;
+    position:relative;
+    border-style:solid;
+    border-color:white;
+    margin: -1.5em 0 0 0;
+    vertical-align:top;
+    margin-left:23%;
+    border-radius:20px;
+    width:30%;
+    background-image: linear-gradient(purple, white);
+}
+
+.loginfield{
+    height:20px;
+    border-radius:10px
+}
+
+.loginbox button{
+    margin-left:45%;
+    height:30px;
+    width:20%;
+}
+
+button{
+    border-radius:20px;
+}
+
+.sidebar{
+    background-image: linear-gradient(salmon, white);
+    border-radius:20px;
+    display:inline-block;
+    border-style:inset;
+    vertical-align:top;
+    width:13%;
+}
+
+.main{
+    display:inline-block;
+    border-radius:20px;
+    width:40%;
+    vertical-align:top;  
+    overflow:auto;
+    height:690px;  
+}
+
+.featured{
+    display:inline-block;
+    width:40%;
+    vertical-align:top;  
+    border-radius:20px;
+    background-image: linear-gradient(yellow, white);
+    border-style:solid;
+    border-color:white;
+}
+
+.productbox{
+    vertical-align:top;
+    border-style:inset;
+    border-radius:20px;
+    width:48%;
+    display:inline-block;
+    background-image: linear-gradient(lightskyblue, white);
+}
+.productbox img{
+    object-fit: inherit;
+    height:auto;
+    width:100%;
+    alt:"Product Image";
+}
+.productbox h3{
+    padding-left:20px;
+}
+.productbox p{
+    padding-left:20px;
+}
+.productbox h4{
+    display:inline-block;
+    padding-left:20px;
+}
+.productbox button{
+    display:inline-block;
+}
+
+.featured img{
+    object-fit: inherit;
+    height:auto;
+    width:100%;
+    alt:"Product Image";
+}
