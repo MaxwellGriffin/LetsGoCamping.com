@@ -34,8 +34,6 @@ body{
 .loginbox{
     display:inline-block;
     position:relative;
-    border-style:solid;
-    border-color:white;
     margin: -1.5em 0 0 0;
     vertical-align:top;
     margin-left:23%;
@@ -57,13 +55,16 @@ body{
 
 button{
     border-radius:20px;
+    color:white;
+    background-color:blue;
+    border-color:white;
+    font-style:bold;
 }
 
 .sidebar{
     background-image: linear-gradient(salmon, white);
     border-radius:20px;
     display:inline-block;
-    border-style:inset;
     vertical-align:top;
     width:13%;
 }
@@ -83,13 +84,11 @@ button{
     vertical-align:top;  
     border-radius:20px;
     background-image: linear-gradient(yellow, white);
-    border-style:solid;
     border-color:white;
 }
 
 .productbox{
     vertical-align:top;
-    border-style:inset;
     border-radius:20px;
     width:48%;
     display:inline-block;
