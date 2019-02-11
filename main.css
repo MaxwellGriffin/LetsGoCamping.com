@@ -57,6 +57,10 @@ body{
 
 button{
     border-radius:20px;
+    color:white;
+    background-color:blue;
+    border-color:white;
+    font-style:bold;
 }
 
 .sidebar{
