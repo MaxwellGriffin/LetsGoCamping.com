@@ -93,6 +93,7 @@ button{
     width:48%;
     display:inline-block;
     background-image: linear-gradient(lightskyblue, white);
+    margin-bottom:5px;
 }
 .productbox img{
     object-fit: inherit;
